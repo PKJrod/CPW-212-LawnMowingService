@@ -16,5 +16,13 @@ namespace LawnMowerCalculator
         {
             InitializeComponent();
         }
+
+        private void calculateCmd_Click(object sender, EventArgs e)
+        {
+            decimal squareFeet = Convert.ToDecimal(sqftTxt.Text);
+
+            double hours = 0;
+            double price = 0;
+        }
     }
 }

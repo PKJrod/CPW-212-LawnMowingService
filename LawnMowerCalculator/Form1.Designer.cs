@@ -96,6 +96,7 @@ namespace LawnMowerCalculator
             this.calculateCmd.TabIndex = 6;
             this.calculateCmd.Text = "Calculate";
             this.calculateCmd.UseVisualStyleBackColor = true;
+            this.calculateCmd.Click += new System.EventHandler(this.calculateCmd_Click);
             // 
             // Form1
             // 
